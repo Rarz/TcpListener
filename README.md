@@ -1,4 +1,4 @@
-# TcpListener
+# TcpListener Windows Service for remote shutdown
 I was too lazy to get out of bed and shut down another pc and didn't want to bother with a remote session, so threw together a simple Windows Service program to listen to a tcp port and shut down the pc when it gets the correct keyphrase. 
 
 * Dotnet 5, uses the BackgroundWorker template.
